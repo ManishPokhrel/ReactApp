@@ -1,0 +1,17 @@
+footer{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+@media(max-width: 700px){
+    footer{
+    flex-direction: column;
+    margin: 0;
+    }
+}
+footer p{
+    /* border: 1px solid black; */
+    margin: 0;
+}

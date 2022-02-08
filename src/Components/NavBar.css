@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Supermercado+One&display=swap');
+.Nav_Container{
+     height: 6rem;
+    z-index: 1;
+  
+}
+.Nav_Bar i{
+    position: absolute;
+    right: 3%;
+    font-size: 1.4rem;
+    cursor: pointer;
+    display: none;
+    top: 1rem;
+}
+
+.Nav_Container h1{
+   
+    position: absolute;
+    margin: 1rem 0 0 2rem;
+    cursor: pointer;
+    color: rgb(54, 16, 9);
+}
+.Nav_Container ul{
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+    margin-right: .8rem;
+}
+.Nav_Container ul li{
+    margin-right: 1.9rem;
+    transition: 0.9s;
+    cursor: pointer;
+
+}
+.Nav_Container ul li:hover{
+    background:lightgray;
+    padding: .2rem .4rem;
+    border-radius: .8rem;
+    box-shadow: 0px 0px 3px white;
+}
+.Nav_Container ul li a{
+    color: gray;
+    font-family: 'Supermercado One', cursive;
+    font-size: 2rem;
+    transition: .9s;
+}
+.Nav_Container ul li a:hover{
+    font-size: 1.8rem;
+    color: black;
+}
+@media(max-width: 910px){
+    .Nav_Container{
+        transition: 0.2s;
+        position: fixed;
+        right: 0%;
+        height: 90%;
+        width: 40%;
+        background: white;
+        box-shadow: 0px 0px 10px gray;
+
+    }
+  
+    .Nav_Bar i{
+        display: block;
+        background: transparent;
+        border: 1px solid white;
+        padding: .2rem;
+        border-radius: .3rem;
+        box-shadow: 0px 0px 5px gray;
+    }
+    .Nav_Container h1{
+        display: none;
+    }
+    .Nav_Container ul{
+        flex-direction: column;
+        justify-content: flex-start;     
+        margin-top: 2.5rem;   
+    }
+    .Nav_Container ul li{
+        margin-top: 3rem;
+    }
+    .Nav_Container ul li a{
+        margin-top: 5rem;
+    }
+    
+}

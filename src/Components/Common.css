@@ -1,0 +1,67 @@
+.Main_Container{
+    display: flex;
+    justify-content: space-between;
+    /* height: 100vh; */
+    /* position: absolute; */
+    width: 100%;
+    /* border: 1px solid red; */
+    /* top: 0; */
+    padding: 2rem;
+    align-items: center;
+}
+
+.Main_Container .Left_Content{
+     padding: 10px;
+    margin-left: 2rem;
+    font-size: 22px;
+}
+.Main_Container .Left_Content h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.Left_Content button{
+    margin-top: 20px;
+}
+.Main_Container .Left_Content p{
+    margin-top: 1rem;
+}
+.Main_Container .Left_Content span{
+    color: tomato;
+    font-weight: 300;
+}
+.Main_Container .Right_Content{
+    margin-right: 3rem;
+
+}
+.Main_Container .Right_Content img{
+    width: 25rem;
+}
+@media(max-width: 910px){
+    .Main_Container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Main_Container .Left_Content{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Main_Container .Left_Content h1{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .Main_Container .Left_Content p{
+        margin-top: .7rem;
+    }
+    .Main_Container .Right_Content{
+        margin-top: .5rem;
+    
+    }
+     .Main_Container .Right_Content img{
+        width: 15rem;
+    
+          }
+}

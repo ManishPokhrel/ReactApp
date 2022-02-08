@@ -1,0 +1,36 @@
+.Contact_Container{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+    box-shadow: 0px 0px 4px gray;
+    margin-top: 30px;
+    height: 45%;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.Contact_Container h1{
+    margin-top: 2rem;
+}
+.Contact_Container input{
+    width: 75%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+.Contact_Container :nth-child(4){
+   cursor: pointer;
+   background-color: white;
+   box-shadow: 0px 0px 10px grey;
+   width: 35%;
+   font-size: 22px;
+   color: black;
+}

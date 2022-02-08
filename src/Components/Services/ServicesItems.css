@@ -1,0 +1,14 @@
+.CardInfo p{
+    word-wrap: break-word;
+}
+.CardImg img{
+    width: 400px;
+    height: 300px;
+}
+
+@media (max-width: 998px){
+    .CardImg img{
+        width: 300px;
+        height: 200px;
+    }
+}
